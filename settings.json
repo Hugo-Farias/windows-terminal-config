@@ -1,0 +1,579 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "resizePane",
+        "direction": "up"
+      },
+      "id": "User.resizePane.6CD791B"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 4
+      },
+      "id": "User.newTab.89E6CA61"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[32;5u"
+      },
+      "id": "Terminal.CtrlSpaceWorkaround"
+    },
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "id": "User.copy.644BA8F2"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 2
+      },
+      "id": "User.newTab.CCE909E3"
+    },
+    {
+      "command": {
+        "action": "globalSummon",
+        "desktop": "toCurrent",
+        "dropdownDuration": 0,
+        "monitor": "any",
+        "name": "_quake",
+        "toggleVisibility": true
+      },
+      "id": "User.globalSummon.4C8709E8"
+    },
+    {
+      "command": {
+        "action": "resizePane",
+        "direction": "right"
+      },
+      "id": "User.resizePane.87C324ED"
+    },
+    {
+      "command": "paste",
+      "id": "User.paste"
+    },
+    {
+      "command": "resetFontSize",
+      "id": "User.resetFontSize"
+    },
+    {
+      "command": "find",
+      "id": "User.find"
+    },
+    {
+      "command": {
+        "action": "resizePane",
+        "direction": "left"
+      },
+      "id": "User.resizePane.2A0DA8E0"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "id": "User.splitPane.A6751878"
+    },
+    {
+      "command": {
+        "action": "closeTab"
+      },
+      "id": "User.closeTab.0"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 0
+      },
+      "id": "User.newTab.7975BEED"
+    },
+    {
+      "command": {
+        "action": "adjustFontSize",
+        "delta": 1
+      },
+      "id": "User.adjustFontSize.E04D5229"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 3
+      },
+      "id": "User.switchToTab.6CD791B"
+    },
+    {
+      "command": {
+        "action": "globalSummon"
+      },
+      "id": "User.globalSummon.51A3D78C"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 1
+      },
+      "id": "User.newTab.1FA5EB5"
+    },
+    {
+      "command": "openNewTabDropdown",
+      "id": "User.openNewTabDropdown"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 5
+      },
+      "id": "User.newTab.663EF760"
+    },
+    {
+      "command": "closePane",
+      "id": "User.closePane"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 1
+      },
+      "id": "User.switchToTab.2A0DA8E0"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 0
+      },
+      "id": "User.switchToTab.D3F0B923"
+    },
+    {
+      "command": {
+        "action": "quakeMode"
+      },
+      "id": "User.quakeMode.F1E129A4"
+    },
+    {
+      "command": {
+        "action": "adjustFontSize",
+        "delta": -1
+      },
+      "id": "User.adjustFontSize.E2698FAA"
+    },
+    {
+      "command": {
+        "action": "resizePane",
+        "direction": "down"
+      },
+      "id": "User.resizePane.F747588A"
+    },
+    {
+      "command": "toggleFocusMode",
+      "id": "User.toggleFocusMode"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 2
+      },
+      "id": "User.switchToTab.87C324ED"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 4294967295
+      },
+      "id": "User.switchToTab.9CB19EED"
+    },
+    {
+      "command": {
+        "action": "nextTab"
+      },
+      "id": "User.nextTab.0"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 3
+      },
+      "id": "User.newTab.F4C304FB"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 4
+      },
+      "id": "User.switchToTab.F747588A"
+    }
+  ],
+  "alwaysOnTop": false,
+  "alwaysShowNotificationIcon": true,
+  "alwaysShowTabs": true,
+  "autoHideWindow": false,
+  "centerOnLaunch": false,
+  "compatibility.allowHeadless": false,
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "firstWindowPreference": "defaultProfile",
+  "keybindings": [
+    {
+      "id": "User.switchToTab.F747588A",
+      "keys": "ctrl+5"
+    },
+    {
+      "id": "Terminal.CtrlSpaceWorkaround",
+      "keys": "ctrl+space"
+    },
+    {
+      "id": "User.newTab.89E6CA61",
+      "keys": "alt+shift+;"
+    },
+    {
+      "id": "User.switchToTab.D3F0B923",
+      "keys": "ctrl+1"
+    },
+    {
+      "id": "User.copy.644BA8F2",
+      "keys": "ctrl+c"
+    },
+    {
+      "id": "null",
+      "keys": "ctrl+t"
+    },
+    {
+      "id": "User.adjustFontSize.E2698FAA",
+      "keys": "ctrl+minus"
+    },
+    {
+      "id": "null",
+      "keys": "alt+shift+d"
+    },
+    {
+      "id": "User.adjustFontSize.E04D5229",
+      "keys": "ctrl+plus"
+    },
+    {
+      "id": "null",
+      "keys": "ctrl+f"
+    },
+    {
+      "id": "null",
+      "keys": "ctrl+w"
+    },
+    {
+      "id": "null",
+      "keys": "ctrl+shift+minus"
+    },
+    {
+      "id": "null",
+      "keys": "ctrl+shift+n"
+    },
+    {
+      "id": "User.resizePane.F747588A",
+      "keys": "ctrl+alt+shift+down"
+    },
+    {
+      "id": "null",
+      "keys": "alt+shift+left"
+    },
+    {
+      "id": "null",
+      "keys": "ctrl+shift+plus"
+    },
+    {
+      "id": "null",
+      "keys": "ctrl+shift+w"
+    },
+    {
+      "id": "null",
+      "keys": "alt+shift+down"
+    },
+    {
+      "id": "null",
+      "keys": "alt+shift+right"
+    },
+    {
+      "id": "null",
+      "keys": "alt+shift+up"
+    },
+    {
+      "id": "User.resizePane.2A0DA8E0",
+      "keys": "ctrl+alt+shift+left"
+    },
+    {
+      "id": "null",
+      "keys": "alt+w"
+    },
+    {
+      "id": "User.newTab.1FA5EB5",
+      "keys": "ctrl+shift+2"
+    },
+    {
+      "id": "User.resetFontSize",
+      "keys": "ctrl+0"
+    },
+    {
+      "id": "null",
+      "keys": "alt+t"
+    },
+    {
+      "id": "User.switchToTab.6CD791B",
+      "keys": "ctrl+4"
+    },
+    {
+      "id": "User.resizePane.6CD791B",
+      "keys": "ctrl+alt+shift+up"
+    },
+    {
+      "id": "User.find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "id": "User.paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "id": "User.openNewTabDropdown",
+      "keys": "ctrl+`"
+    },
+    {
+      "id": "User.splitPane.A6751878",
+      "keys": "ctrl+shift+t"
+    },
+    {
+      "id": "User.newTab.7975BEED",
+      "keys": "ctrl+shift+1"
+    },
+    {
+      "id": "User.resizePane.87C324ED",
+      "keys": "ctrl+alt+shift+right"
+    },
+    {
+      "id": "User.closePane",
+      "keys": "ctrl+f4"
+    },
+    {
+      "id": "Terminal.ToggleFullscreen",
+      "keys": "f11"
+    },
+    {
+      "id": "User.quakeMode.F1E129A4",
+      "keys": "win+`"
+    },
+    {
+      "id": "User.newTab.1FA5EB5",
+      "keys": "alt+shift+j"
+    },
+    {
+      "id": "User.globalSummon.51A3D78C",
+      "keys": "alt+`"
+    },
+    {
+      "id": "User.toggleFocusMode",
+      "keys": "alt+shift+f"
+    },
+    {
+      "id": null,
+      "keys": "alt+enter"
+    },
+    {
+      "id": "User.switchToTab.2A0DA8E0",
+      "keys": "ctrl+2"
+    },
+    {
+      "id": "User.switchToTab.87C324ED",
+      "keys": "ctrl+3"
+    },
+    {
+      "id": "User.newTab.7975BEED",
+      "keys": "alt+shift+h"
+    },
+    {
+      "id": "User.newTab.CCE909E3",
+      "keys": "alt+shift+k"
+    },
+    {
+      "id": "User.newTab.F4C304FB",
+      "keys": "alt+shift+l"
+    }
+  ],
+  "launchMode": "focus",
+  "minimizeToNotificationArea": false,
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "adjustIndistinguishableColors": "never",
+      "antialiasingMode": "cleartype",
+      "backgroundImageOpacity": 1,
+      "closeOnExit": "graceful",
+      "colorScheme": "Campbell (modified)",
+      "cursorShape": "bar",
+      "font": {
+        "face": "JetBrainsMono Nerd Font",
+        "size": 11,
+        "weight": "normal"
+      },
+      "opacity": 90,
+      "padding": "0",
+      "rightClickContextMenu": true,
+      "scrollbarState": "hidden",
+      "showMarksOnScrollbar": true,
+      "useAcrylic": false
+    },
+    "list": [
+      {
+        "antialiasingMode": "cleartype",
+        "backgroundImageOpacity": 0.26,
+        "colorScheme": {
+          "light": "Campbell (modified)"
+        },
+        "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "icon": "C:\\Program Files\\PowerShell\\7\\Powershell 7 icon.png",
+        "name": "Windows PowerShell",
+        "startingDirectory": null,
+        "tabTitle": "PowerShell 7"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt"
+      },
+      {
+        "commandline": "C:\\Program Files\\Git\\usr\\bin\\bash.exe -i -l",
+        "guid": "{04219dc1-968b-4328-997f-85bcb02791e2}",
+        "hidden": false,
+        "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
+        "name": "Bash"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": true,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+      },
+      {
+        "guid": "{e8753d26-bd45-54ac-b3fe-e0635cd8d5ed}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "Microsoft.WSL"
+      },
+      {
+        "altGrAliasing": true,
+        "antialiasingMode": "cleartype",
+        "backgroundImageOpacity": 0.26,
+        "bellStyle": ["audible", "window"],
+        "closeOnExit": "never",
+        "colorScheme": {
+          "light": "Campbell (modified)"
+        },
+        "commandline": "pwsh.exe -nologo -WindowStyle Hidden",
+        "elevate": false,
+        "experimental.rainbowSuggestions": true,
+        "guid": "{7b166b71-af35-45a3-8666-c119f04438be}",
+        "hidden": true,
+        "historySize": 9001,
+        "icon": "C:\\Program Files\\PowerShell\\7\\Powershell 7 icon.png",
+        "name": "PowerShell_QuakeMode",
+        "snapOnInput": true,
+        "startingDirectory": "%USERPROFILE%",
+        "suppressApplicationTitle": true,
+        "tabTitle": "PowerShell 7 QuakeMode"
+      },
+      {
+        "commandline": "nvim",
+        "guid": "{e3fbe44e-3cb0-4d7f-a6b9-e8e0384729b2}",
+        "hidden": false,
+        "icon": "C:\\tools\\neovim\\nvim-win64\\bin\\nvim.exe",
+        "name": "Neovim",
+        "startingDirectory": "%USERPROFILE%",
+        "suppressApplicationTitle": true,
+        "tabTitle": null
+      },
+      {
+        "commandline": "pwsh C:/Users/Hugo/AppData/Roaming/npm/gemini.ps1",
+        "guid": "{8b5a3c92-458a-456c-8ca2-73c9a1d665ea}",
+        "hidden": false,
+        "icon": "D:\\Users\\Hugo\\Pictures\\icons\\gemini\\gemini-1336519698502187930_64px.ico",
+        "name": "Gemini",
+        "startingDirectory": "%USERPROFILE%",
+        "suppressApplicationTitle": true
+      },
+      {
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "guid": "{ec61a7b1-684e-58f7-bfbb-9221b100ab4e}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "Microsoft.WSL"
+      },
+      {
+        "guid": "{07e2a4a0-bd77-53fa-9c59-4adc47cc7686}",
+        "hidden": false,
+        "name": "archlinux",
+        "source": "Microsoft.WSL"
+      },
+      {
+        "guid": "{589b41b7-1f9d-5614-9838-a05f82080126}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "Microsoft.WSL"
+      }
+    ]
+  },
+  "rendering.graphicsAPI": "direct3d11",
+  "schemes": [
+    {
+      "background": "#000000",
+      "black": "#0C0C0C",
+      "blue": "#0037DA",
+      "brightBlack": "#767676",
+      "brightBlue": "#3B78FF",
+      "brightCyan": "#61D6D6",
+      "brightGreen": "#16C60C",
+      "brightPurple": "#B4009E",
+      "brightRed": "#E74856",
+      "brightWhite": "#F2F2F2",
+      "brightYellow": "#F9F1A5",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#3A96DD",
+      "foreground": "#CCCCCC",
+      "green": "#13A10E",
+      "name": "Campbell (modified)",
+      "purple": "#881798",
+      "red": "#C50F1F",
+      "selectionBackground": "#FFFFFF",
+      "white": "#CCCCCC",
+      "yellow": "#C19C00"
+    }
+  ],
+  "showTabsInTitlebar": false,
+  "showTerminalTitleInTitlebar": true,
+  "tabSwitcherMode": "inOrder",
+  "tabWidthMode": "compact",
+  "theme": "system",
+  "themes": [],
+  "useAcrylicInTabRow": false,
+  "windowingBehavior": "useNew"
+}
